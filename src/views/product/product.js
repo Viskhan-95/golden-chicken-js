@@ -11,6 +11,10 @@ export class ProductView extends AbstractView {
         this.setTitle('О продукте');
     }
 
+    destroy() {
+        onChange.unsubscribe(this.appState);
+    }
+
     appStateHook(path) {
         if (path === 'cart') {
             this.render();
