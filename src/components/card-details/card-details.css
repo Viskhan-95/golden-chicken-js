@@ -1,0 +1,35 @@
+.wrapper {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.card__wrapper img {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.card__add {
+    background: none;
+    color: var(--color-primary);
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 1px 2px 7px 3px rgba(247, 195, 52, 0.5);
+    margin-top: 40px;
+}
+
+.card__add:active {
+    transform: scale(1.02);
+}
+
+h4 {
+    margin: 10px;
+    line-height: 200%;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+}
+
+:root {
+    --color-primary: #f4b404;
+    --black: #2F2A2A;
+    --white: #fafafa;
+    --speed: 0.5s;
+}
+
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	background: var(--black);
+    color: var(--color-primary);
+	margin: 0;
+	font-style: normal;
+	font-weight: 500;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
